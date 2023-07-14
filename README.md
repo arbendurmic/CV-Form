@@ -1,2 +1,2 @@
 # Pershendetje
-Kjo eshte CV-ja ime e pare ne HTML.
+Ketu mund ta gjeni CV dhe Form te punuara ne HTML.
