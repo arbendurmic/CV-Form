@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+<body>
+    <br/><br/><br/>
+    <form align="center"
+    action="#"
+    method="post"
+    enctype="multipart/form-data"
+    autocomplete="on">
+    <fieldset>
+    <div class="row">
+        <legend>Email</legend>
+    <input
+    type="email" 
+    name="email"
+    placeholder="Enter your email"
+    minlength="10"
+    maxlength="40"
+    required>
+    </div><br/>
+    <div class="row">
+        <legend>Username</legend>
+    <input 
+    type="username" 
+    name="username"
+    placeholder="Enter your username"
+    minlength="5"
+    maxlength="40">
+    </div> <br/>
+    <div class="row">
+        <legend>Password</legend>
+    <input 
+    type="password" 
+    name="password"
+    placeholder="Password"
+    minlength="5"
+    maxlength="15"
+    required>
+    </div><br/>
+    <div class="row">
+        <legend>CV</legend>
+    <input type="file"/>
+    </div><br/>
+        <div class="row">
+            <legend>Gender</legend>
+        <label for="Male">Male</label>
+        <input id="Male" type="radio" name="Gender" value="Mashkull">
+        <label for="Female">Female</label>
+        <input id="Female" type="radio" name="Gender" value="Femer"
+        required>
+        </div><br/>
+        <div class="row">
+        <legend>Education</legend>
+        <select name="Education" id="Education">
+            <option value="Elementary School">Elementary School</option>
+            <option value="High School">High School</option>
+            <option value="University">University</option>
+        </select> 
+        </div><br/>
+    <button type="submit">Dergo</button>
+</fieldset>
+</form>
+</body>
+</html>
